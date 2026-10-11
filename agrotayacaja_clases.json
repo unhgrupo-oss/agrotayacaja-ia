@@ -1,0 +1,13 @@
+{
+  "class_names": [
+    "Potato___Early_blight",
+    "Potato___Late_blight",
+    "Potato___healthy"
+  ],
+  "labels_es": [
+    "Tizón temprano",
+    "Tizón tardío",
+    "Sana"
+  ],
+  "img_size": [224, 224]
+}
