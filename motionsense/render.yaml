@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: motionsense-ai
+    runtime: python
+    buildCommand: cd motionsense && pip install -r requirements.txt && python train_model.py
+    startCommand: cd motionsense && gunicorn app:app
+    plan: free
